@@ -1,0 +1,8 @@
+name: flye
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::flye=2.8.1
+  
