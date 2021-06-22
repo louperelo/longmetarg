@@ -1,0 +1,12 @@
+# Don't track content of these folders
+out_dir/
+work/
+card_db/
+blast_db/
+diamond_db/
+.nextflow/
+
+# Don't track these files
+.nextflow
+.nextflow.log*
+nextflow
