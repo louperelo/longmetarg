@@ -22,3 +22,4 @@ The pipeline is built using ```Nextflow```, a workflow tool to run tasks across 
 5. Install the reference database for Blast (default: *ref_prok_rep_genomes*) or Diamond (default: *nr.dmnd*) in the working directory naming the folders ```blast_db``` or ```diamond_db```, respectively. If the reference database already exists in your system, indicate location and name using ```--blastDbDir   --blastDbName``` or ```--diamondDbDir   --diamondDbName```.
 6. Download the pipeline and test it on a minimal dataset (*test.fasta*) running the command inside the folder containing the installed files:
  ```./nextflow run main.nf --input test.fasta -profile conda```
+7. For more information on command-line options run ```./nextflow run main.nf --help```.
